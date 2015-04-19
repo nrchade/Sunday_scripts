@@ -1,0 +1,95 @@
+    1  whoami
+    2  pwd
+    3  ls
+    4  ls -N
+    5  ls -n
+    6  ls --help
+    7  ls -p
+    8  ls --help
+    9  cd c:q
+   10  cd c:/
+   11  ls
+   12  cd 
+   13  cd Users/
+   14  cd
+   15  ls
+   16  cd desktop/
+   17  ls
+   18  cd swc_arlington//
+   19  ls
+   20  mkdir fooling_around
+   21  ls
+   22  ls -p
+   23  pwd
+   24  ls
+   25  cd fooling_around
+   26  touch newfile.txt
+   27  ls
+   28  nano newfile2.txt
+   29  notepad.exe newfile2.txt
+   30  la
+   31  ls
+   32  cat newfile2.txt
+   33  notepad.exe  newfile2
+   34  ls
+   35  rm newfile.txt
+   36  ls
+   37  mkdir older_versions
+   38  ls
+   39  ls -p
+   40  mv newfile2.txt older_versions
+   41  ls
+   42  cd older_versions
+   43  ls
+   44  cd ..
+   45  ls
+   46  cd ..
+   47  ls
+   48  ls
+   49  cp clean clean_NRC
+   50  cpdir clean clean_NRC
+   51  cp -r clean clean_NRC
+   52  ls
+   53  ls
+   54  cd clean_NRC
+   55  ls
+   56  wc Zambia.cc.txt 
+   57  wc *.txt
+   58  wc -l *.txt
+   59  wc -l *.txt > lengthline
+   60  ls
+   61  cat lengthline
+   62  sort -n lengthline
+   63  sort -n lengthline | head -10
+   64  sort -n lengthline | head -100
+   65  sort -n lengthline | tail -100
+   66  sort -n lengthline | tail -10 head 10
+   67  sort -n lengthline | head 10 tail -10 
+   68  sort -n lengthline | head 10 | tail -10 
+   69  sort -n lengthline | head -10 | tail -10 
+   70  sort -n lengthline | head -10 | sort -n lengthline | tail -10 
+   71  ls -l | wc -1
+   72  ls -1 | wc
+   73  ls -1 | wc -l
+   74  ls -1h | wc -l
+   75  ls -1h 
+   76  ls -lh 
+   77  ls -h 
+   78  ls | wc -l
+   79  wc -l 
+   80  wc
+   81  sort -n lengthline 
+   82  sort -n lengthline | != 12
+   83  sort -n lengthline != 12
+   84  lengthline != 12
+   85  wc lengthline 
+   86  lengthline > 12
+   87  sort -n lengthline | wc -1 != 12
+   88  sort -n lengthline | wc -l != 12
+   89  sort -n lengthline | wc -l <> 12
+   90  sort -n lengthline | wc -l 
+   91  sort -n lengthline 
+   92  wc lengthline 
+   93  sort -n lengthline | tail -4 | head -3
+   94  history < history
+   95  history > history
